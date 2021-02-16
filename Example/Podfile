@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'ADRadioButton_Example' do
+  pod 'ADRadioButton', :path => '../'
+
+  target 'ADRadioButton_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
