@@ -1,0 +1,6 @@
+framework module ADRadioButton {
+  umbrella header "ADRadioButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

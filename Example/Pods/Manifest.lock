@@ -1,0 +1,16 @@
+PODS:
+  - ADRadioButton (0.1.0)
+
+DEPENDENCIES:
+  - ADRadioButton (from `../`)
+
+EXTERNAL SOURCES:
+  ADRadioButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ADRadioButton: 7865e429b6f3402c5a7b2d9ab8302b9f52b20b6d
+
+PODFILE CHECKSUM: ad93df1270586d2dee78ca3afff51673bbb99dcf
+
+COCOAPODS: 1.10.1

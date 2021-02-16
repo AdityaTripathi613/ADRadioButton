@@ -1,0 +1,22 @@
+{
+  "name": "ADRadioButton",
+  "version": "0.1.0",
+  "summary": "A short description of ADRadioButton.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/AdityaTripathi613/ADRadioButton",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "AdityaTripathi613": "aditya.tripathi@hexagoninfosoft.com"
+  },
+  "source": {
+    "git": "https://github.com/AdityaTripathi613/ADRadioButton.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ADRadioButton/Classes/**/*"
+}
