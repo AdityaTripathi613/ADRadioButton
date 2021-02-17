@@ -13,8 +13,8 @@
 		6CB8B01B65B2079809867DF26A671A5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		9DAB09B970B291F60EAD01CA89E3C15A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		B6B494CB62244138157BBC2E8A9CAA36 /* Pods-ADRadioButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA8DF774F15AFD7286541A96F2FEF39 /* Pods-ADRadioButton_Example-dummy.m */; };
-		C43871EF81B1AE01236057683ECACA66 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66934F306F12B91D71D77DB51F036B08 /* ReplaceMe.swift */; };
 		DB4CA4A8518DB98788200D6331FC3F5F /* Pods-ADRadioButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04210DEDEF43D5FC28F4E5E7A13C78EF /* Pods-ADRadioButton_Tests-dummy.m */; };
+		E4F02E3625DCF257000F8723 /* ADRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F02E3525DCF257000F8723 /* ADRadioButton.swift */; };
 		F830BAC8D300C815085C722F64ACBE7A /* ADRadioButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A7402BE2F5B8AE8C428C43CCD828436 /* ADRadioButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB428B2875EF4212FF920A0394503F77 /* Pods-ADRadioButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49C642DE892F2813139F76EE6DF6E86C /* Pods-ADRadioButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -44,7 +44,7 @@
 		181B0432A95C7EA2AC3DC2DD2A89C456 /* Pods-ADRadioButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ADRadioButton_Example.modulemap"; sourceTree = "<group>"; };
 		1CF833EA3A0B51464D49792144C68073 /* Pods-ADRadioButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ADRadioButton_Tests.modulemap"; sourceTree = "<group>"; };
 		24B047806D72578F5DAE97F679A2D249 /* ADRadioButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ADRadioButton.debug.xcconfig; sourceTree = "<group>"; };
-		2B0D9E78760F4BAAC6480D66FD6CE3EA /* ADRadioButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ADRadioButton.framework; path = ADRadioButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B0D9E78760F4BAAC6480D66FD6CE3EA /* ADRadioButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ADRadioButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C690D8227F9D4D07DEA6DE0B61803D7 /* Pods-ADRadioButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ADRadioButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2FF4B4FF7F06174E52C6F654537EA2E6 /* ADRadioButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ADRadioButton-prefix.pch"; sourceTree = "<group>"; };
 		35322984B9D3DED1777DB4E14764154C /* Pods-ADRadioButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ADRadioButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -53,21 +53,21 @@
 		4DA8DF774F15AFD7286541A96F2FEF39 /* Pods-ADRadioButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ADRadioButton_Example-dummy.m"; sourceTree = "<group>"; };
 		4ED8F23378F1C1A286786AFD9B6FCC2A /* ADRadioButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ADRadioButton.modulemap; sourceTree = "<group>"; };
 		5C399AB59E6F3DF7EB4D1FDFC78EFDFE /* ADRadioButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ADRadioButton-dummy.m"; sourceTree = "<group>"; };
-		66934F306F12B91D71D77DB51F036B08 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ADRadioButton/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		66F65AA117148AB7E0F89C656F610C04 /* Pods_ADRadioButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ADRadioButton_Tests.framework; path = "Pods-ADRadioButton_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F65AA117148AB7E0F89C656F610C04 /* Pods_ADRadioButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ADRadioButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72F7B4443AC2A9EC4D2C916DEC5143A0 /* Pods-ADRadioButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ADRadioButton_Example.release.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7837A4929AF8E9814149F7D150587A74 /* Pods-ADRadioButton_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ADRadioButton_Example-Info.plist"; sourceTree = "<group>"; };
-		840848EE898364D63ABC32C5204A896A /* ADRadioButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ADRadioButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		85FB178B4460644B2EA31EDB071BFC72 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		840848EE898364D63ABC32C5204A896A /* ADRadioButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ADRadioButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		85FB178B4460644B2EA31EDB071BFC72 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8A7402BE2F5B8AE8C428C43CCD828436 /* ADRadioButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ADRadioButton-umbrella.h"; sourceTree = "<group>"; };
 		9A05ACC66428246BF5050402B501121D /* Pods-ADRadioButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ADRadioButton_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C068E6539C95806649994C3FECC000B7 /* Pods-ADRadioButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ADRadioButton_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C6BE2B49273164ED7C1E2F479B584F68 /* Pods-ADRadioButton_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ADRadioButton_Tests-Info.plist"; sourceTree = "<group>"; };
-		CA4AA17D1145E7E8E57328DADE176D65 /* Pods_ADRadioButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ADRadioButton_Example.framework; path = "Pods-ADRadioButton_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9DD25BDAF4BEF82510015C25CE0A168 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CA4AA17D1145E7E8E57328DADE176D65 /* Pods_ADRadioButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ADRadioButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9DD25BDAF4BEF82510015C25CE0A168 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		E4CEE50283EF57CB465FCD93EB95B8E8 /* ADRadioButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ADRadioButton.release.xcconfig; sourceTree = "<group>"; };
+		E4F02E3525DCF257000F8723 /* ADRadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADRadioButton.swift; sourceTree = "<group>"; };
 		E8EBCCD8841DC6E5A34AADB183ABAFA9 /* Pods-ADRadioButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ADRadioButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F63BF0654CBFA5478B8097889CBB9E82 /* Pods-ADRadioButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ADRadioButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +103,7 @@
 		092D9E2E21C1D22C33FA3AA37A3F06EE /* ADRadioButton */ = {
 			isa = PBXGroup;
 			children = (
-				66934F306F12B91D71D77DB51F036B08 /* ReplaceMe.swift */,
+				E4BC0EFF25DBE5EF0010705B /* Source */,
 				A5D965E36898F68BA1A6E3B6C5B48C57 /* Pod */,
 				EFE1D0A9B1848EA8654E013F09A80E4D /* Support Files */,
 			);
@@ -206,6 +206,14 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4BC0EFF25DBE5EF0010705B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E4F02E3525DCF257000F8723 /* ADRadioButton.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 		EFE1D0A9B1848EA8654E013F09A80E4D /* Support Files */ = {
@@ -316,7 +324,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					8A5A5865544D341E89298A53BD8B3B17 = {
+						LastSwiftMigration = 1240;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -384,7 +397,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				30DFD062D55324AD70763B465645798A /* ADRadioButton-dummy.m in Sources */,
-				C43871EF81B1AE01236057683ECACA66 /* ReplaceMe.swift in Sources */,
+				E4F02E3625DCF257000F8723 /* ADRadioButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,7 +472,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -476,18 +489,21 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E4CEE50283EF57CB465FCD93EB95B8E8 /* ADRadioButton.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/ADRadioButton/ADRadioButton-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ADRadioButton/ADRadioButton-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ADRadioButton/ADRadioButton.modulemap";
 				PRODUCT_MODULE_NAME = ADRadioButton;
@@ -495,7 +511,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -518,7 +534,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ADRadioButton_Tests/Pods-ADRadioButton_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ADRadioButton_Tests/Pods-ADRadioButton_Tests.modulemap";
@@ -551,7 +567,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ADRadioButton_Example/Pods-ADRadioButton_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ADRadioButton_Example/Pods-ADRadioButton_Example.modulemap";
@@ -583,7 +599,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ADRadioButton_Example/Pods-ADRadioButton_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ADRadioButton_Example/Pods-ADRadioButton_Example.modulemap";
@@ -605,18 +621,21 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 24B047806D72578F5DAE97F679A2D249 /* ADRadioButton.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/ADRadioButton/ADRadioButton-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ADRadioButton/ADRadioButton-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ADRadioButton/ADRadioButton.modulemap";
 				PRODUCT_MODULE_NAME = ADRadioButton;
@@ -624,7 +643,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -646,7 +666,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ADRadioButton_Tests/Pods-ADRadioButton_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ADRadioButton_Tests/Pods-ADRadioButton_Tests.modulemap";
@@ -713,13 +733,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

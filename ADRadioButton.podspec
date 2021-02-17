@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ADRadioButton'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ADRadioButton.'
+  s.summary          = 'ADRadioButton is a UIControl which is control all the changes.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,19 +18,19 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+'ADRadioButton is an awesome aimed to make your life easy with UIControl.'
                        DESC
 
   s.homepage         = 'https://github.com/AdityaTripathi613/ADRadioButton'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'AdityaTripathi613' => 'aditya.tripathi@hexagoninfosoft.com' }
+  s.author           = { 'AdityaTripathi613' => 'adityat613@gmail.com' }
   s.source           = { :git => 'https://github.com/AdityaTripathi613/ADRadioButton.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
-
-  s.source_files = 'ADRadioButton/Classes/**/*'
+  s.ios.deployment_target = '12.1'
+  
+  s.source_files = 'Source/**/*.swift'
   
   # s.resource_bundles = {
   #   'ADRadioButton' => ['ADRadioButton/Assets/*.png']
